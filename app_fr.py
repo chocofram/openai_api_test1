@@ -44,7 +44,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「フランス語講師」ボット")
-st.image("/content/DALL·E 2023-10-21 21.08.45 - illustration of a beautiful woman, dressed in a chic and sophisticated attire, holding a French textbook and gesturing gracefully as she teaches, with.png")
+st.image("DALL·E 2023-10-21 21.08.45 - illustration of a beautiful woman, dressed in a chic and sophisticated attire, holding a French textbook and gesturing gracefully as she teaches, with.png")
 st.write("Apprécions le français !")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
